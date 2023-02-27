@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Currency Convertor</title>
+</head>
+<body>
+
+    <div class="header" id="header">
+        <nav class="navbar">
+            <h1>Currency Convertor</h1>
+        </nav>
+    </div>
+
+    <div class="box">
+        <div class="displayInput">
+            <div class="inputBox">
+                <input type="number" placeholder="ex-123..." class="input" id="input1">
+                <img id="us-img1" class="us-img" src="./icon/retweet-.png" alt="Select Country">
+                <select name="country" class="country" id="country1">
+                    <option value="no" selected>Select option:</option>
+                    <option value="USD"><img src="./icon/dollar-symbol.png">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="POUND">POUND</option>
+                </select>
+            </div>
+            <div class="convert" id="convert">
+                <img class="" src="./icon/exchange.png" alt="Convert">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Result..." class="input" id="input2">
+                <img id="us-img2" class="us-img" src="./icon/retweet-.png" alt="Select Country">
+                <select name="country" class="country" id="country2">
+                    <option value="no" selected>Select option:</option>
+                    <option value="INR">INR</option>
+                    <option value="POUND">POUND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div id="recent" align="center">
+        <h1>Recent Currency Price</h1>
+        <div class="priceChange"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
