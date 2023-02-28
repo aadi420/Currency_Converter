@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <title>repl.it</title>
+    </head>
+    <body>
+        <table>
+        <tr>
+            <td> want to buy <input id="firstinput" onkeyup="convert('C');"></td>
+            <td>
+                <select id="from" onchange="convert('C')">
+                    <option value="EUR" selected>EURO(EUR)</option>
+                    <option value="USD">USdollar(USD)</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> want to buy <input id="secondinput" onkeyup="convert('F')"></td>
+            <td>
+                <select id="to"  onchange="convert('F')">
+                    <option value="EUR">EURO(EUR)</option>
+                    <option value="USD" selected>USdollar(USD)</option>
+                </select>
+            </td>
+        </tr>
+
+        </table>
+        <script src="./demo.js"></script>
+    </body>
+</html>

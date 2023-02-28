@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: rgba(127, 255, 212, 0.295);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar h1{
+    padding: 30px;
+}
+
+.nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.nav ul{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.nav ul li{
+    margin: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.nav ul li:hover{
+    cursor: pointer;
+    background-color: rgb(160, 86, 86);
+}
+
+.box{
+    align-items: center;
+}
+
+.displayInput{
+    display: block;
+    margin: 60px;
+}
+
+.convert{
+    display: flex;
+    justify-content: center;
+}
+
+.convert img{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.exchange{
+    transition: 1s;
+    transform: rotateX(180deg);
+}
+
+.box{
+    padding: 20px;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+.input{
+    background-color: rgb(98, 101, 199) ;
+    color: aliceblue;
+    font-size: xx-large;
+    padding: 20px;
+    height: 3vh;
+    width: 25vw;
+    border-radius: 10px;
+    border: 1px solid saddlebrown;
+}
+
+input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+
+.country{
+    font-size: x-large;
+    width: fit-content;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.us-img {
+    padding: 2px;
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
